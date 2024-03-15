@@ -12,6 +12,6 @@ public class Hechizos {
             pi += p.charAt(i);
         }
 
-        System.out.println(pi);
+        System.out.println("Mostrar Echizo: \n:" + pi);
     }
 }
