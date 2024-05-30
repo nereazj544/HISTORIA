@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Hechizos {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Escribe la palabra: ");
@@ -12,6 +12,7 @@ public class Hechizos {
             pi += p.charAt(i);
         }
 
-        System.out.println("Mostrar Echizo: \n:" + pi);
+        System.out.println("> Mostrar Echizo: \n" + pi);
+        sc.close();
     }
 }
