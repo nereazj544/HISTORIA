@@ -7,8 +7,7 @@ public class Hechizos {
         Random rand = new Random();
 
         System.out.println("Escribe la palabra: ");
-
-        String p = sc.nextLine();
+        String p = sc.nextLine(); //Guarda la palabra introduccida por teclado
         
         // Invertir la palabra
         String pi = "";
